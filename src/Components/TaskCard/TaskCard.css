@@ -1,0 +1,29 @@
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  .task-text {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-card-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-card-buttons button {
+    flex: 1;
+    margin-right: 8px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .task-card-buttons button:last-child {
+    margin-right: 0;
+  }
+  
